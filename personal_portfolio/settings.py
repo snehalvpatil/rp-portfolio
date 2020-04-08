@@ -124,5 +124,3 @@ STATIC_URL = '/static/'
 # STATIC_ROOT =  '/home/django/django_project/django_project/static'
 
 
-# Activate Django-Heroku.
-django_heroku.settings(locals())
