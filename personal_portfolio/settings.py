@@ -120,5 +120,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
-STATIC_URL = '/static/'
+STATIC_URL = 'http://127.0.0.1:8000/'
+MEDIA_ROOT = os.path.join(BASE_DIR, "Media")
+MEDIA_URL = "/Media/"
 # STATIC_ROOT =  '/home/django/django_project/django_project/static'
