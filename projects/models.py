@@ -10,7 +10,6 @@ def upload_img(instance, filename):
         print("img dir not exists creating one")
         return os.path.join('img/'+"%s" %(re.sub('[^a-zA-Z0-9 \.\_]', '', filename).replace(' ', ''), ))
 # Create your models here.
-fs = FileSystemStorage(location='/media/photos')
 
 class Project(models.Model):
     title = models.CharField(max_length= 100)
